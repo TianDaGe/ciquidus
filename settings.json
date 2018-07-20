@@ -29,7 +29,7 @@
   "theme": "Slate",
 
   // port to listen for requests on.
-  "port" : 3001,
+  "port" : 80,
 
   // database settings (MongoDB)
   "dbsettings": {
@@ -39,6 +39,14 @@
     "address": "localhost",
     "port": 27017
   },
+
+  /* "dbsettings": {
+    "user": "ciquidus",
+    "password": "3xp!0reR",
+    "database": "explorerdb",
+    "address": "localhost",
+    "port": 27017
+  }, */
 
   //update script settings
   "update_timeout": 10,
