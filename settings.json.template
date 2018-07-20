@@ -5,15 +5,15 @@
 */
 {
   // name your instance!
-  "title": "CIQUIDUS",
+  "title": "401KCOIN",
 
-  "address": "127.0.0.1:3001",
+  "address": "127.0.0.1:51473",
 
   // coin name
-  "coin": "Chaincoin",
+  "coin": "401kcoin",
 
   // coin symbol
-  "symbol": "CHC",
+  "symbol": "401K",
 
   // logo
   "logo": "/images/chain_dark-128x128.png",
@@ -47,13 +47,13 @@
   // wallet settings
   "wallet": {
     "host": "localhost",
-    "port": 11995,
-    "user": "chaincoinrpc",
+    "port": 51473,
+    "user": "401krpc",
     "pass": "123gfjk3R3pCCVjHtbRde2s5kzdf233sa"
   },
 
   // confirmations
-  "confirmations": 40,
+  "confirmations": 15,
 
   // language settings
   "locale": "locale/en.json",
@@ -93,7 +93,7 @@
   // market settings
   //supported markets: bittrex, poloniex, yobit, empoex, bleutrade, cryptopia, ccex, coinexchange
   //default market is loaded by default and determines last price in header
-  "markets": {
+  /* "markets": {
     "coin": "CHC",
     "exchange": "BTC",
     "enabled": ["cryptopia"],
@@ -101,7 +101,7 @@
     "ccex_key" : "Get-Your-Own-Key",
     "coinexchange_id": "18",
     "default": "cryptopia"
-  },
+  }, */
 
   // richlist/top100 settings
   "richlist": {
